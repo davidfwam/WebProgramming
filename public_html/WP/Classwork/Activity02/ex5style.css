@@ -1,0 +1,52 @@
+#artist {
+    font-size:14pt;
+    font:Arial;
+    font-weight:bold;
+    color:peru;
+}
+
+#song_title {
+    font-size:14pt;
+    font:Arial;
+    color:#f0e68c;
+}
+
+#album {
+    font-size:12pt;
+    font:Arial;
+    color:#f0e68c;
+}
+
+#year {
+    font-size:12pt;
+    font:Arial;
+    font-weight:bold;
+    color:ivory;
+    margin-left:2cm;
+}
+
+body {
+  background-color:#D2691E;
+}
+
+#verse {
+    font-size:14pt;
+    font:Trebuchet;
+    font-weight:bold;
+    color:gold;
+    margin-left:2cm;
+    margin-right:2cm;
+}
+
+#chorus {
+    font-size:14pt;
+    font:Trebuchet;
+    font-weight:bold;
+    font-style:italic;
+    color:gold;
+    margin-left:4cm;
+    margin-right:4cm;
+}
+    color:darkred;
+    margin-left:6cm;
+}

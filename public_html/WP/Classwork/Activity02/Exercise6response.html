@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<HTML>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="ex5style.css">
+    <title>University of Georgia Example on embedded style sheets</title>
+  </head>
+
+  <body style="background-color:black;">
+    <h1 id="artist"> 1.	The school has approached you to advise them on how this may be possible.</h1>
+      <h2 id="year">I decline advising on such an endeavor and would suggest they hire a contractor (as I am only an amateur)</p>
+    <h1 id="artist">2.	The school wants you to explain the process you wish to use, and why it is better than letting every teacher write their own style.</h1>
+      <h2 id="year">Since the school persists, and I am left with no options, the process I intend on using is to have a linked style sheet that way the entire school webpage
+        can follow the same general format; both the html and css for such a page can be reused and mondified easily, and teachers wont have to worry about managing their
+        own webpage but in the case they would like to make personal modifications to their page, I can manage that change with in-line style sheets. Stuff like the html tag
+        attrubutes will come standard and students will quickly learn how to navigate through the core webpage as they go from teacher to teacher since it will all be kept
+        similar (i.e. links to homeworks, exams, holidays etc.)
+    <h1 id="artist">3.	Write a list of ten or more HTML tags and classes that may be used for the website. Consider the attributes that may have to be used, such as background color, departmental style, tables (for timetable, exam, curriculum and annual), headers and so on.  </h1>
+      <h2 id="year"> LIST BELOW <br>
+        <ul>
+          <li> < title > so that the school name can be addressed and verified </li>
+          <li> < link > to point to an external stylesheet that will be reused for all the websites </li>
+          <li> < head > to present some important info at the top of the page such as the tecaher name, contact email, and image even </li>
+          <li> < body > to present some general info regarding a class / details that will be taught and just store majority of a webpage content </li>
+          <li> < h1 - h6 > to label each heading text as an importance indicator, the larger the text the more important (usually ((disclaimer: this is indeed a target to insurances having important details in small prints for ads)) </li>
+          <li> < ol / ul > to represent assignments numbers and topics to be covered throughout a course,
+          <li> < style > in the case that departments could be organized by colors, that way student can recongize the department, <p style="color:blue;">math being blue</p> <p style="color:red;">english being red</p><p style="color:brown;">history being boring.. I mean brown<p></li>
+          <li> < p > to just be able to have content / describe details of the class, such as a teacher's about me or brief overview on a topic </li>
+          <li> < div > to separate the webpage by pages, maybe have an area for office hours, another area for references, another for general course </li>
+          <li> < table > in case a teacher wants to store a table of something, maybe homework, classwork, and exams as columns and the dates in which they are to be issued as rows
+            <table style="width:100%">
+              <tr>
+                <th>Color</th>
+                <th>Name</th>
+                <th>Hexidecimal</th>
+                <th>RGB value</th>
+              </tr>
+              <tr>
+                <td style="background-color: salmon"></td>
+                <td>Salmon</td>
+                <td>FA8072</td>
+                <td>250-128-114</td>
+              </tr>
+              <tr>
+                <td style="background-color: gold"></td>
+                <td>Gold</td>
+                <td>FFD700</td>
+                <td>250-215-0</td>
+              </tr>
+            </table> </li>
+          <li> < a href > to link! because who doesn't love links to other pages! <a href="https://www.youtube.com/watch?v=U6hkOAnFJxM">you get a link!</a> <a href="https://www.google.com/search?rlz=1C1CHBD_enUS896US896&ei=4OlrX-2TBIm25gKN4ZKoDw&q=reasons+to+become+a+web+developer&oq=reasons+to+become+a+web+developer&gs_lcp=CgZwc3ktYWIQAzICCAAyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeOgQIABBHOgUIABCRAjoFCC4QkQI6BQgAELEDOgIILjoICC4QsQMQgwE6CAguEMcBEKMCOgQIABBDOgoILhDHARCvARBDOgcIABCxAxBDOgUIABCSAzoICAAQsQMQgwE6BAgAEAM6CwguELEDEMcBEKMCUOgLWOUvYOswaABwA3gAgAGLAYgB0haSAQQyNi43mAEAoAEBqgEHZ3dzLXdpesgBCMABAQ&sclient=psy-ab&ved=0ahUKEwjtg52LxoDsAhUJm1kKHY2wBPUQ4dUDCA0&uact=5">YOU GET A LINK!!</a> <a href="https://www.w3schools.com/html/html_links.asp">EVERYBODY GETS A LINK</a>
+        </ul> </h2>
+    <h1 id="artist"> 4.	After choosing the HTML tags, consider the CSS code required to style them.  </h1>
+      <h2 id="year"> a lot of the cascading style sheet used to style the webpage can be kept linked in an external style sheet, that way it follow the general format of a webpage for all instructors so stuff such as font, font-size, font-weight, font-style, color
+        background-color margin-left/right self align, opacity, background-image, calc, flex, order, object-fit, image-rendering, background-origin, backface visiblity, plain visiblity, page-break... you get what I'm saying, the list goes on and you're not paying me to list them! </h2>
+  </body>
+  </html>
