@@ -1,0 +1,43 @@
+h1,h2 {
+    text-align: center;
+}
+
+body {
+    text-align: left;
+    float: center;
+}
+
+.column-container {
+    padding: 2em;
+    border: 4px red dashed;
+    margin: 2em;
+}
+.left-column {
+    float: left;
+    width; 33%;
+    flex-basis: 33%;
+
+}
+.right-column {
+    float: right;
+    flex-basis: 67%;
+}
+
+.image {
+    text-align: right;
+}
+
+img {
+  src: "support.jpeg";
+  width: "200px";
+}
+
+.main {
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+}
+.final-section {
+    position: fixed;
+    bottom: 5px;
+}
