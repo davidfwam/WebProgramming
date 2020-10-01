@@ -1,0 +1,180 @@
+dt {
+  font: Arial;
+  font-size: 8pt;
+  text-indent: 10px;
+  font-weight: bold;
+}
+
+dd {
+  font: Arial;
+  font-size: 8pt;
+  text-indent: 1cm;
+}
+
+.background {
+  font: Verdana;
+  font-size: 8pt;
+  background-image: url('background.png');
+  background-repeat: repeat;
+  background-position: center center;
+}
+
+.bannerbackground {
+  background-image: url('bannerbackground.png');
+  height: 50px;
+}
+
+.banner {
+  background-image: url('banner.png');
+  background-repeat: no-repeat;
+  height: 50px;
+}
+
+.overallcontentarea {
+  width: 800px;
+  align-content: center;
+  margin: auto;
+  border-style: solid;
+  border-color: gray;
+  border-width: 4px;
+}
+
+.rotten {
+  background-image: url('rotten.png');
+  height: 83px;
+  display: flex;
+}
+
+.sidepanel {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 450px;
+  background-color:#A2B964
+}
+
+.panelreview {
+  background-image: url('rottenbackground.png');
+  align-self: center;
+  height: 83px;
+  display: flex;
+}
+
+.split-box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+
+.rottengif {
+  float: left;
+  margin-top: 5px;
+  margin-right:5px;
+  margin-left: 2px;
+}
+
+
+.left-container {
+  background-color: #E1D697;
+  display: inline-block;
+  border-style: solid;
+  border-color: gray;
+  border-width: 2px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: inherit;
+  margin-right: 8px;
+  margin-left: 8px;
+  background-color: #E1D697;
+  flex-basis: 47%;
+}
+.right-container {
+  background-color: #E1D697;
+  display: inline-block;
+  border-style: solid;
+  border-color: gray;
+  border-width: 2px;
+  margin-top: 8px;
+  width: inherit;
+  margin-bottom: 8px;
+  flex-basis: 47%;
+}
+
+
+.bottompanel {
+  background-color: #A2B964;
+  text-align: center;
+  height: 25px;
+  padding-left: 180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#movieimage {
+  float:right;
+}
+
+#title {
+  font-size:24pt;
+  font-family: Verdana;
+  text-align: center;
+}
+
+#panelrating {
+  font: Verdana;
+  font-size:48pt;
+  font-weight: bold;
+  color:red;
+  padding-top: 10px;
+  align-self: baseline;
+}
+
+#panelreview {
+  font-size:8pt;
+  color: white;
+  margin-right: 45px;
+}
+
+
+#c1, #c2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#left-containers-text {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-sizing: content-box;
+}
+
+
+#quotes {
+  font: Verdana;
+  font-size: 10pt;
+  font-weight: bold;
+  display: inline-flex;
+  margin: inherit;
+}
+
+#critic {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#reviewername {
+  font: Verdana;
+  font-weight: normal;
+  font-size: 8pt;
+
+}
+#publication {
+  font-style: italic;
+}
